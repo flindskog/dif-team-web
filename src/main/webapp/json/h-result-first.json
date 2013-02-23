@@ -1,0 +1,110 @@
+{ "placed" : [{ "place" : "1", "team" : "Saltsjöbadens SLK Lag 2", "firstRun" : "01:11.72", "competitorResult" : [{ "competitor" : { "bib" : "207", "lastName" : "Lundquist", "firstName" : "Philip", "organization" : "Saltsjöbadens SLK" }, "firstRun" : "00:23.71" }
+, { "competitor" : { "bib" : "205", "lastName" : "Söderberg", "firstName" : "Hugo", "organization" : "Saltsjöbadens SLK" }, "firstRun" : "00:23.50" }
+, { "competitor" : { "bib" : "158", "lastName" : "Kaar", "firstName" : "Philip", "organization" : "Saltsjöbadens SLK" }, "firstRun" : "00:24.51" }
+, { "competitor" : { "bib" : "247", "lastName" : "Sandin Vänje", "firstName" : "Edward", "organization" : "Saltsjöbadens SLK" }, "firstRun" : "00:26.14" }
+] }
+, { "place" : "2", "team" : "IFK Lidingö Slalomklubb Lag 2", "firstRun" : "01:14.31", "competitorResult" : [{ "competitor" : { "bib" : "222", "lastName" : "Ax Swartz", "firstName" : "Fabian", "organization" : "IFK Lidingö Slalomklubb" }, "firstRun" : "00:22.54" }
+, { "competitor" : { "bib" : "181", "lastName" : "Wredmark", "firstName" : "Fabian", "organization" : "IFK Lidingö Slalomklubb" }, "firstRun" : "00:24.30" }
+, { "competitor" : { "bib" : "242", "lastName" : "Sommerlou", "firstName" : "Erik", "organization" : "IFK Lidingö Slalomklubb" }, "firstRun" : "00:27.47" }
+, { "competitor" : { "bib" : "228", "lastName" : "Asplund", "firstName" : "Carl", "organization" : "IFK Lidingö Slalomklubb" }, "firstRun" : "00:30.34" }
+] }
+, { "place" : "3", "team" : "Täby SLK Lag 1", "firstRun" : "01:14.75", "competitorResult" : [{ "competitor" : { "bib" : "211", "lastName" : "Candert", "firstName" : "Joel", "organization" : "Täby SLK" }, "firstRun" : "00:23.54" }
+, { "competitor" : { "bib" : "236", "lastName" : "Karlsson", "firstName" : "Jacob", "organization" : "Täby SLK" }, "firstRun" : "00:24.58" }
+, { "competitor" : { "bib" : "165", "lastName" : "Huss", "firstName" : "Björn", "organization" : "Täby SLK" }, "firstRun" : "00:26.63" }
+, { "competitor" : { "bib" : "160", "lastName" : "Engström", "firstName" : "Anton", "organization" : "Täby SLK" }, "firstRun" : "00:28.56" }
+] }
+, { "place" : "4", "team" : "Sollentuna SLK Lag 3", "firstRun" : "01:16.06", "competitorResult" : [{ "competitor" : { "bib" : "212", "lastName" : "Holmqvist", "firstName" : "Hugo", "organization" : "Sollentuna SLK" }, "firstRun" : "00:23.83" }
+, { "competitor" : { "bib" : "234", "lastName" : "Lybeck", "firstName" : "Herman", "organization" : "Sollentuna SLK" }, "firstRun" : "00:27.91" }
+, { "competitor" : { "bib" : "187", "lastName" : "Andersson", "firstName" : "Gustav", "organization" : "Sollentuna SLK" }, "firstRun" : "00:31.64" }
+, { "competitor" : { "bib" : "166", "lastName" : "Svedenheim", "firstName" : "Markus", "organization" : "Sollentuna SLK" }, "firstRun" : "00:24.32" }
+] }
+, { "place" : "5", "team" : "Sollentuna SLK Lag 2", "firstRun" : "01:16.48", "competitorResult" : [{ "competitor" : { "bib" : "154", "lastName" : "Sundgren", "firstName" : "Oliver", "organization" : "Sollentuna SLK" }, "firstRun" : "00:24.25" }
+, { "competitor" : { "bib" : "202", "lastName" : "Hamrén", "firstName" : "Rufus", "organization" : "Sollentuna SLK" }, "firstRun" : "00:23.77" }
+, { "competitor" : { "bib" : "230", "lastName" : "From", "firstName" : "Vincent", "organization" : "Sollentuna SLK" }, "firstRun" : "00:28.46" }
+, { "competitor" : { "bib" : "155", "lastName" : "Odén", "firstName" : "Ted", "organization" : "Sollentuna SLK" }, "firstRun" : "DNF" }
+] }
+, { "place" : "6", "team" : "Saltsjöbadens SLK Lag 1", "firstRun" : "01:16.88", "competitorResult" : [{ "competitor" : { "bib" : "218", "lastName" : "Nyman", "firstName" : "Axel", "organization" : "Saltsjöbadens SLK" }, "firstRun" : "00:24.11" }
+, { "competitor" : { "bib" : "226", "lastName" : "Frankendal", "firstName" : "Calle", "organization" : "Saltsjöbadens SLK" }, "firstRun" : "00:26.09" }
+, { "competitor" : { "bib" : "227", "lastName" : "Skogestig", "firstName" : "Nils", "organization" : "Saltsjöbadens SLK" }, "firstRun" : "00:26.68" }
+, { "competitor" : { "bib" : "215", "lastName" : "Wetter", "firstName" : "Filip", "organization" : "Saltsjöbadens SLK" }, "firstRun" : "00:27.97" }
+] }
+, { "place" : "7", "team" : "Huddinge SK AF Lag 2", "firstRun" : "01:18.54", "competitorResult" : [{ "competitor" : { "bib" : "182", "lastName" : "G Beiming", "firstName" : "Alvin", "organization" : "Huddinge SK AF" }, "firstRun" : "00:24.57" }
+, { "competitor" : { "bib" : "198", "lastName" : "Sidebäck", "firstName" : "Linus", "organization" : "Huddinge SK AF" }, "firstRun" : "00:26.86" }
+, { "competitor" : { "bib" : "177", "lastName" : "Lundqvist", "firstName" : "Simon", "organization" : "Huddinge SK AF" }, "firstRun" : "00:27.11" }
+, { "competitor" : { "bib" : "167", "lastName" : "Nilsson", "firstName" : "Ludvig", "organization" : "Huddinge SK AF" }, "firstRun" : "00:34.24" }
+] }
+, { "place" : "8", "team" : "Huddinge SK AF Lag 1", "firstRun" : "01:19.85", "competitorResult" : [{ "competitor" : { "bib" : "170", "lastName" : "Lundbäck", "firstName" : "Isak", "organization" : "Huddinge SK AF" }, "firstRun" : "00:25.16" }
+, { "competitor" : { "bib" : "191", "lastName" : "Söderberg", "firstName" : "Zackarias", "organization" : "Huddinge SK AF" }, "firstRun" : "00:29.93" }
+, { "competitor" : { "bib" : "246", "lastName" : "Wigbrant", "firstName" : "Fabian", "organization" : "Huddinge SK AF" }, "firstRun" : "00:35.20" }
+, { "competitor" : { "bib" : "184", "lastName" : "Kreicbergs", "firstName" : "Rasmus", "organization" : "Huddinge SK AF" }, "firstRun" : "00:24.76" }
+] }
+, { "place" : "9", "team" : "Sollentuna SLK Lag 4", "firstRun" : "01:20.55", "competitorResult" : [{ "competitor" : { "bib" : "197", "lastName" : "Ceder", "firstName" : "Tage", "organization" : "Sollentuna SLK" }, "firstRun" : "00:24.40" }
+, { "competitor" : { "bib" : "178", "lastName" : "Radhe", "firstName" : "Noah", "organization" : "Sollentuna SLK" }, "firstRun" : "00:26.48" }
+, { "competitor" : { "bib" : "172", "lastName" : "Ceder", "firstName" : "Sigge", "organization" : "Sollentuna SLK" }, "firstRun" : "00:29.67" }
+, { "competitor" : { "bib" : "151", "lastName" : "Rosenqvist", "firstName" : "Kasper", "organization" : "Sollentuna SLK" }, "firstRun" : "00:38.13" }
+] }
+, { "place" : "10", "team" : "Saltsjöbadens SLK Lag 3", "firstRun" : "01:21.46", "competitorResult" : [{ "competitor" : { "bib" : "199", "lastName" : "Nilsson", "firstName" : "Anton", "organization" : "Saltsjöbadens SLK" }, "firstRun" : "00:24.95" }
+, { "competitor" : { "bib" : "219", "lastName" : "Oldenburg", "firstName" : "Hjalmar", "organization" : "Saltsjöbadens SLK" }, "firstRun" : "00:28.41" }
+, { "competitor" : { "bib" : "223", "lastName" : "Almstedt", "firstName" : "Enzo", "organization" : "Saltsjöbadens SLK" }, "firstRun" : "00:28.10" }
+] }
+, { "place" : "11", "team" : "Järfälla AK Lag 1", "firstRun" : "01:24.14", "competitorResult" : [{ "competitor" : { "bib" : "231", "lastName" : "Andersson", "firstName" : "Felix", "organization" : "Järfälla AK" }, "firstRun" : "00:23.61" }
+, { "competitor" : { "bib" : "240", "lastName" : "Wernelind", "firstName" : "Max", "organization" : "Järfälla AK" }, "firstRun" : "00:27.47" }
+, { "competitor" : { "bib" : "189", "lastName" : "Byttner", "firstName" : "Arvid", "organization" : "Järfälla AK" }, "firstRun" : "00:33.06" }
+, { "competitor" : { "bib" : "214", "lastName" : "Bergman", "firstName" : "Sigge", "organization" : "Järfälla AK" }, "firstRun" : "00:35.10" }
+] }
+, { "place" : "12", "team" : "Täby SLK Lag 2", "firstRun" : "01:24.52", "competitorResult" : [{ "competitor" : { "bib" : "200", "lastName" : "Lindstedt-Nyberg", "firstName" : "Tor", "organization" : "Täby SLK" }, "firstRun" : "00:25.97" }
+, { "competitor" : { "bib" : "210", "lastName" : "Bocké", "firstName" : "Erik", "organization" : "Täby SLK" }, "firstRun" : "00:27.88" }
+, { "competitor" : { "bib" : "185", "lastName" : "Juul Sørensen", "firstName" : "Gustav", "organization" : "Täby SLK" }, "firstRun" : "00:30.67" }
+, { "competitor" : { "bib" : "162", "lastName" : "Aldin", "firstName" : "Gustav", "organization" : "Täby SLK" }, "firstRun" : "00:32.89" }
+] }
+, { "place" : "13", "team" : "Huddinge SK AF Lag 4", "firstRun" : "01:25.24", "competitorResult" : [{ "competitor" : { "bib" : "229", "lastName" : "Ekstrand", "firstName" : "Niklas", "organization" : "Huddinge SK AF" }, "firstRun" : "00:24.57" }
+, { "competitor" : { "bib" : "180", "lastName" : "Berg", "firstName" : "Alfred", "organization" : "Huddinge SK AF" }, "firstRun" : "00:29.11" }
+, { "competitor" : { "bib" : "224", "lastName" : "Braatz", "firstName" : "Felix", "organization" : "Huddinge SK AF" }, "firstRun" : "00:31.56" }
+, { "competitor" : { "bib" : "237", "lastName" : "Fagerstedt", "firstName" : "Hugo", "organization" : "Huddinge SK AF" }, "firstRun" : "00:36.30" }
+] }
+, { "place" : "14", "team" : "Sollentuna SLK Lag 1", "firstRun" : "01:25.52", "competitorResult" : [{ "competitor" : { "bib" : "175", "lastName" : "Möller", "firstName" : "Petter", "organization" : "Sollentuna SLK" }, "firstRun" : "00:27.07" }
+, { "competitor" : { "bib" : "225", "lastName" : "Forselius", "firstName" : "Enzo", "organization" : "Sollentuna SLK" }, "firstRun" : "00:29.17" }
+, { "competitor" : { "bib" : "192", "lastName" : "Andreasen", "firstName" : "Emil", "organization" : "Sollentuna SLK" }, "firstRun" : "00:29.48" }
+, { "competitor" : { "bib" : "220", "lastName" : "Fast", "firstName" : "Fabian", "organization" : "Sollentuna SLK" }, "firstRun" : "00:29.28" }
+, { "competitor" : { "bib" : "174", "lastName" : "Huss", "firstName" : "Noel", "organization" : "Sollentuna SLK" }, "firstRun" : "00:32.70" }
+] }
+, { "place" : "15", "team" : "IFK Lidingö Slalomklubb Lag 1", "firstRun" : "01:25.63", "competitorResult" : [{ "competitor" : { "bib" : "241", "lastName" : "Mattsson", "firstName" : "Victor", "organization" : "IFK Lidingö Slalomklubb" }, "firstRun" : "00:27.38" }
+, { "competitor" : { "bib" : "195", "lastName" : "Paulson", "firstName" : "alex", "organization" : "IFK Lidingö Slalomklubb" }, "firstRun" : "00:29.74" }
+, { "competitor" : { "bib" : "208", "lastName" : "Strauss Böttiger", "firstName" : "Ian", "organization" : "IFK Lidingö Slalomklubb" }, "firstRun" : "00:28.51" }
+, { "competitor" : { "bib" : "171", "lastName" : "Bengtsson Sohlman", "firstName" : "Victor", "organization" : "IFK Lidingö Slalomklubb" }, "firstRun" : "00:31.01" }
+] }
+, { "place" : "16", "team" : "Djurgårdens IF AF Lag 1", "firstRun" : "01:26.90", "competitorResult" : [{ "competitor" : { "bib" : "169", "lastName" : "Eneqvist", "firstName" : "Hugo", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:26.51" }
+, { "competitor" : { "bib" : "161", "lastName" : "Henriksson", "firstName" : "Albin", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:29.04" }
+, { "competitor" : { "bib" : "183", "lastName" : "Reynier", "firstName" : "Lucas", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:33.39" }
+, { "competitor" : { "bib" : "157", "lastName" : "Lundqvist", "firstName" : "Hugo", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:31.35" }
+, { "competitor" : { "bib" : "233", "lastName" : "Kehrer", "firstName" : "Theodor", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:58.81" }
+] }
+, { "place" : "17", "team" : "Djurgårdens IF AF Lag 4", "firstRun" : "01:26.99", "competitorResult" : [{ "competitor" : { "bib" : "156", "lastName" : "Holmgren", "firstName" : "Henrik", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:27.60" }
+, { "competitor" : { "bib" : "152", "lastName" : "Söderberg", "firstName" : "Hugo", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:28.60" }
+, { "competitor" : { "bib" : "194", "lastName" : "Witte", "firstName" : "Hannes", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:30.79" }
+, { "competitor" : { "bib" : "193", "lastName" : "Lindstrand", "firstName" : "Hugo", "organization" : "Djurgårdens IF AF" }, "firstRun" : "DNF" }
+] }
+, { "place" : "18", "team" : "IFK Lidingö Slalomklubb Lag 3", "firstRun" : "01:28.56", "competitorResult" : [{ "competitor" : { "bib" : "217", "lastName" : "Keller", "firstName" : "Victor", "organization" : "IFK Lidingö Slalomklubb" }, "firstRun" : "00:28.86" }
+, { "competitor" : { "bib" : "206", "lastName" : "Paulson", "firstName" : "Felix", "organization" : "IFK Lidingö Slalomklubb" }, "firstRun" : "00:33.18" }
+, { "competitor" : { "bib" : "163", "lastName" : "Fossum", "firstName" : "Emil", "organization" : "IFK Lidingö Slalomklubb" }, "firstRun" : "00:26.52" }
+] }
+, { "place" : "19", "team" : "Djurgårdens IF AF Lag 2", "firstRun" : "01:29.64", "competitorResult" : [{ "competitor" : { "bib" : "164", "lastName" : "Helsén", "firstName" : "Oscar", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:28.90" }
+, { "competitor" : { "bib" : "176", "lastName" : "Lagerberg", "firstName" : "Calle", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:30.04" }
+, { "competitor" : { "bib" : "173", "lastName" : "Bucht Wesslén", "firstName" : "Noah", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:33.04" }
+, { "competitor" : { "bib" : "201", "lastName" : "Rudal", "firstName" : "Alexander", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:41.11" }
+, { "competitor" : { "bib" : "204", "lastName" : "Mårding", "firstName" : "Marcus", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:30.70" }
+] }
+, { "place" : "20", "team" : "Djurgårdens IF AF Lag 3", "firstRun" : "01:31.15", "competitorResult" : [{ "competitor" : { "bib" : "235", "lastName" : "Tengbom", "firstName" : "Fred", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:29.82" }
+, { "competitor" : { "bib" : "213", "lastName" : "Bergner", "firstName" : "Eskil", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:29.54" }
+, { "competitor" : { "bib" : "239", "lastName" : "Lilja", "firstName" : "Viggo", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:33.38" }
+, { "competitor" : { "bib" : "216", "lastName" : "Mannent", "firstName" : "Rémi", "organization" : "Djurgårdens IF AF" }, "firstRun" : "00:31.79" }
+] }
+, { "place" : "21", "team" : "Huddinge SK AF Lag 3", "firstRun" : "01:32.04", "competitorResult" : [{ "competitor" : { "bib" : "238", "lastName" : "Jalkesten", "firstName" : "Marcus", "organization" : "Huddinge SK AF" }, "firstRun" : "00:28.01" }
+, { "competitor" : { "bib" : "203", "lastName" : "Johem", "firstName" : "Andreas", "organization" : "Huddinge SK AF" }, "firstRun" : "00:30.15" }
+, { "competitor" : { "bib" : "244", "lastName" : "Nilsson", "firstName" : "Samuel", "organization" : "Huddinge SK AF" }, "firstRun" : "00:33.88" }
+, { "competitor" : { "bib" : "243", "lastName" : "Nilsson", "firstName" : "Robin", "organization" : "Huddinge SK AF" }, "firstRun" : "00:34.38" }
+] }
+],
+"not-placed" : [{ "place" : "22", "team" : "Mälaröarnas Alpina SK Lag 1", "firstRun" : "---", "competitorResult" : [{ "competitor" : { "bib" : "221", "lastName" : "Bylund", "firstName" : "Eskil", "organization" : "Mälaröarnas Alpina SK" }, "firstRun" : "00:25.91" }
+] }
+] }
