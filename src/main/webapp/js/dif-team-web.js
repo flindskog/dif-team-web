@@ -44,7 +44,7 @@ $(document).ready(
 						getFirstRunResult(Global.selectedResultUrl,
 								Global.selectedResultHeader, function() {
 									$('#reloadMessage1').slideDown();
-									setTimeout(function(){$('#reloadMessage1').slideUp()},3000);
+									setTimeout(function(){$('#reloadMessage1').slideUp()},2000);
 								});
 					});
 		});
@@ -56,7 +56,7 @@ $(document).ready(
 						getTotalResult(Global.selectedResultUrl,
 								Global.selectedResultHeader, function() {
 									$('#reloadMessage2').slideDown();
-									setTimeout(function(){$('#reloadMessage2').slideUp()},3000);
+									setTimeout(function(){$('#reloadMessage2').slideUp()},2000);
 								});
 					});
 		});
