@@ -1,0 +1,19 @@
+<li data-role="list-divider">Placerade</li>
+{{#each placed}}
+<li>
+<h3>{{place}}. {{team}}</h3>
+<p class="result"><strong>{{firstRun}}</strong></p>
+{{#each competitorResult}}
+<p>{{competitor.bib}}. {{competitor.firstName}} {{competitor.lastName}} ({{firstRun}})</p>
+{{/each}}
+</li>
+{{/each}}
+<li data-role="list-divider">Ej Placerade</li>
+{{#each not-placed}}
+<li>
+<h3>{{team}}</h3>
+{{#each competitorResult}}
+<p>{{competitor.bib}}. {{competitor.firstName}} {{competitor.lastName}} ({{firstRun}})</p>
+{{/each}}
+</li>
+{{/each}}

@@ -11,7 +11,11 @@
 <link rel="stylesheet" href="themes/current/theme.css" />
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
-<script type="text/javascript" src="js/handlebars-1.0.0-rc.3.js"></script>
+<script type="text/javascript" src="js/handlebars.runtime-1.0.0-rc.3.js"></script>
+<script type="text/javascript" src="templates/startlist.handlebars.js"></script>
+<script type="text/javascript" src="templates/teams.handlebars.js"></script>
+<script type="text/javascript" src="templates/first-run-result.handlebars.js"></script>
+<script type="text/javascript" src="templates/total-result.handlebars.js"></script>
 <script type="text/javascript" src="js/dif-team-web.js"></script>
 </head>
 <body>
@@ -73,16 +77,6 @@
 		</div>
 	</div>
 	
-	<script id="startlist-template" type="text/x-handlebars-template">
-	{{#each competitors}}
-	<li>
-	<h3>{{bib}}. {{firstName}} {{lastName}}</h3>
-	<p>{{organization}}</p>
-	</li>
-	{{/each}}
-	</script>
-	
-
 	<div data-role="page" id="teamPage">
 		<div data-role="header">
 			<a href="#mainPage" data-icon="back" data-direction="reverse"
@@ -98,17 +92,6 @@
 		</div>
 	</div>
 	
-	<script id="teams-template" type="text/x-handlebars-template">
-	{{#each teams}}
-	<li>
-	<h3>{{name}}</h3>
-	{{#each members}}
-	<p>{{bib}}. {{firstName}} {{lastName}}</p>
-	{{/each}}
-	</li>
-	{{/each}}
-	</script>
-
 	<div data-role="page" id="firstRunResultPage">
 		<div data-role="header">
 			<a href="#mainPage" data-icon="back" data-direction="reverse"
@@ -130,28 +113,6 @@
 		</div>
 	</div>
 	
-	<script id="first-run-result-template" type="text/x-handlebars-template">
-	<li data-role="list-divider">Placerade</li>
-	{{#each placed}}
-	<li>
-	<h3>{{place}}. {{team}}</h3>
-	<p class="result"><strong>{{firstRun}}</strong></p>
-	{{#each competitorResult}}
-	<p>{{competitor.bib}}. {{competitor.firstName}} {{competitor.lastName}} ({{firstRun}})</p>
-	{{/each}}
-	</li>
-	{{/each}}
-	<li data-role="list-divider">Ej Placerade</li>
-	{{#each not-placed}}
-	<li>
-	<h3>{{team}}</h3>
-	{{#each competitorResult}}
-	<p>{{competitor.bib}}. {{competitor.firstName}} {{competitor.lastName}} ({{firstRun}})</p>
-	{{/each}}
-	</li>
-	{{/each}}
-	</script>
-
 	<div data-role="page" id="totalResultPage">
 		<div data-role="header">
 			<a href="#mainPage" data-icon="back" data-direction="reverse"
@@ -174,28 +135,6 @@
 		</div>
 	</div>
 	
-	<script id="total-result-template" type="text/x-handlebars-template">
-	<li data-role="list-divider">Placerade</li>
-	{{#each placed}}
-	<li>
-	<h3>{{place}}. {{team}}</h3>
-	<p class="result"><strong>{{totalResult}}</strong> ({{firstRun}} / {{secondRun}})</p>
-	{{#each competitorResult}}
-	<p>{{competitor.bib}}. {{competitor.firstName}} {{competitor.lastName}} ({{firstRun}} / {{secondRun}})</p>
-	{{/each}}
-	</li>
-	{{/each}}
-	<li data-role="list-divider">Ej Placerade</li>
-	{{#each not-placed}}
-	<li>
-	<h3>{{team}}</h3>
-	{{#each competitorResult}}
-	<p>{{competitor.bib}}. {{competitor.firstName}} {{competitor.lastName}} ({{firstRun}} / {{secondRun}})</p>
-	{{/each}}
-	</li>
-	{{/each}}
-	</script>
-
 	<div data-role="page" id="aboutPage">
 		<div data-role="header">
 			<h1>Om</h1>

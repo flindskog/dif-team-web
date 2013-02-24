@@ -1,15 +1,3 @@
-// Load pages in windows-1252 charset
-//$.ajaxSetup({
-//	'beforeSend' : function(xhr) {
-//		if (xhr.overrideMimeType) {
-//			xhr.overrideMimeType('text/html; charset=windows-1252');
-//		} else {
-//			xhr.setRequestHeader('Content-type',
-//					'text/html; charset=windows-1252');
-//		}
-//	},
-//});
-
 $.mobile.listview.prototype.options.filterPlaceholder = "Filtrera...";
 $.mobile.loader.prototype.options.text = "Laddar...";
 $.mobile.loader.prototype.options.textVisible = true;
@@ -17,23 +5,6 @@ $.mobile.loader.prototype.options.textVisible = true;
 var Global = {
 	selectedResultUrl : null,
 	selectedResultHeader : null,
-	getTemplate : function(templateName) {
-		if (!Global._compiledTemplates[templateName]) {
-			Global._initHelpers();
-			Global._compiledTemplates[templateName] = Handlebars.compile($(templateName).html());
-		}
-		return Global._compiledTemplates[templateName];
-	},
-	_initHelpers : function() {
-		if (!Global._initedTemplates) {
-			Handlebars.registerHelper('substr', function(start, end, context) {
-				return context.substring(start, end);
-			});
-			Global._initedTemplates = true;
-		}
-	},
-	_compiledTemplates : {},
-	_initedTemplates : false
 };
 
 $(document).ready(
@@ -88,11 +59,6 @@ $('#mainPage').live('pageinit', function() {
 	});
 });
 
-
-function trim(string) {
-	return string.replace(/\s/g, "").replace(/\u00a0/g, "");
-}
-
 $('#teamPage').live('pageinit', function() {
 	if (Global.selectedResultUrl == null) {
 		$.mobile.changePage($('#mainPage'));
@@ -118,19 +84,19 @@ $('#totalResultPage').live('pageinit', function() {
 });
 
 function getTeams(url, header, successCallback) {
-	getDataAndApplyTemplate(url, header, successCallback, '#teamHeader', "Lagindelning ", '#teamUl', '#teams-template', '#teamPage')
+	getDataAndApplyTemplate(url, header, successCallback, '#teamHeader', "Lagindelning ", '#teamUl', 'teams', '#teamPage')
 }
 
 function getStartList(url, header, successCallback) {
-	getDataAndApplyTemplate(url, header, successCallback, '#startListHeader', "Startlista ", '#startListUl', '#startlist-template', '#startListPage')
+	getDataAndApplyTemplate(url, header, successCallback, '#startListHeader', "Startlista ", '#startListUl', 'startlist', '#startListPage')
 }
 
 function getFirstRunResult(url, header, successCallback) {
-	getDataAndApplyTemplate(url, header, successCallback, '#firstRunResultHeader', "Resultat ", '#firstRunResultUl', '#first-run-result-template', '#firstRunResultPage')
+	getDataAndApplyTemplate(url, header, successCallback, '#firstRunResultHeader', "Resultat ", '#firstRunResultUl', 'first-run-result', '#firstRunResultPage')
 }
 
 function getTotalResult(url, header, successCallback) {
-	getDataAndApplyTemplate(url, header, successCallback, '#totalResultHeader', "Resultat ", '#totalResultUl', '#total-result-template', '#totalResultPage')
+	getDataAndApplyTemplate(url, header, successCallback, '#totalResultHeader', "Resultat ", '#totalResultUl', 'total-result', '#totalResultPage')
 }
 
 function getDataAndApplyTemplate(url, header, successCallback, headerId, headerPrefix, listUl, templateId, pageId) {
@@ -151,7 +117,7 @@ function getDataAndApplyTemplate(url, header, successCallback, headerId, headerP
 			getDataForTemplate({
 				json : data,
 				ul : listUl,
-				template : Global.getTemplate(templateId)
+				template : Handlebars.templates[templateId]
 			});
 
 			$.mobile.changePage($(pageId), {
@@ -172,7 +138,6 @@ function getDataAndApplyTemplate(url, header, successCallback, headerId, headerP
 
 function getDataForTemplate(config) {
 	var data = config.json;
-	//alert(JSON.stringify(data))
 
 	if (config.dataProcessFnc != undefined) {
 		config.dataProcessFnc(data);
