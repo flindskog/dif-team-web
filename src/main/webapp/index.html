@@ -1,156 +1,156 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>DIF Alpin Live Timing</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=8" />
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="icon" href="themes/current/images/favicon.ico" type="image/vnd.microsoft.icon" />
-<link rel="stylesheet"
-	href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
-<link rel="stylesheet" href="themes/current/theme.css" />
-<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
-<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
-<script type="text/javascript" src="js/handlebars.runtime-1.0.0-rc.3.js"></script>
-<script type="text/javascript" src="templates/startlist.handlebars.js"></script>
-<script type="text/javascript" src="templates/teams.handlebars.js"></script>
-<script type="text/javascript" src="templates/first-run-result.handlebars.js"></script>
-<script type="text/javascript" src="templates/total-result.handlebars.js"></script>
-<script type="text/javascript" src="js/dif-team-web.js"></script>
+    <title>DIF Alpin Live Timing</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="themes/current/images/favicon.ico" type="image/vnd.microsoft.icon" />
+    <link rel="stylesheet"
+          href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <link rel="stylesheet" href="themes/current/theme.css" />
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+    <script type="text/javascript" src="js/handlebars.runtime-1.0.0-rc.3.js"></script>
+    <script type="text/javascript" src="templates/startlist.handlebars.js"></script>
+    <script type="text/javascript" src="templates/teams.handlebars.js"></script>
+    <script type="text/javascript" src="templates/first-run-result.handlebars.js"></script>
+    <script type="text/javascript" src="templates/total-result.handlebars.js"></script>
+    <script type="text/javascript" src="js/dif-team-web.js"></script>
 </head>
 <body>
-	<div data-role="page" id="mainPage">
-		<div data-role="header">
-			<img id="logo" src="themes/current/images/logo.png" class="ui-btn-left" />
-			<h1 id="header">Sthlm Race Lag U10</h1>
-			<a href="#aboutPage" data-rel="dialog" data-icon="info"
-				class="ui-btn-right" data-iconpos="notext">Om</a>
-		</div>
+<div data-role="page" id="mainPage">
+    <div data-role="header">
+        <img id="logo" src="themes/current/images/logo.png" class="ui-btn-left" />
+        <h1 id="header">Sthlm Race Lag U10</h1>
+        <a href="#aboutPage" data-rel="dialog" data-icon="info"
+           class="ui-btn-right" data-iconpos="notext">Om</a>
+    </div>
 
-		<div data-role="content">
-			<ul data-role="listview" data-inset="true" id="mainUl">
-				<li data-role="list-divider">Startlistor</li>
-					<li class="listUlItem" id="d-startlist">
-					    <a>D 9-10</a>
-					</li>
-					<li class="listUlItem" id="h-startlist">
-					    <a>H 9-10</a>
-					</li>
-				<li data-role="list-divider">Lagindelning</li>
-					<li class="listUlItem" id="d-teams">
-					    <a>D 9-10</a>
-					</li>
-					<li class="listUlItem" id="h-teams">
-					    <a>H 9-10</a>
-					</li>
-				<li data-role="list-divider">Resultat</li>
-				    <li class="listUlItem" id="d-result-first">
-					    <a>D 9-10 &Aring;k 1</a>
-					</li>
-				    <li class="listUlItem" id="d-result-total">
-					    <a>D 9-10 Totalt</a>
-					</li>
-					<li class="listUlItem" id="h-result-first">
-					    <a>H 9-10 &Aring;k 1</a>
-					</li>
-					<li class="listUlItem" id="h-result-total">
-					    <a>H 9-10 Totalt</a>
-					</li>
-			</ul>
-		</div>
-		<div data-role="footer">
-			<h1 id="footer">&copy; DIF Alpin 2013</h1>
-		</div>
-	</div>
-	
-	<div data-role="page" id="startListPage">
-		<div data-role="header">
-			<a href="#mainPage" data-icon="back" data-direction="reverse"
-				class="ui-btn-left" data-iconpos="notext" data-transition="slidefade">Tillbaka</a>
-			<h1 id="startListHeader">Startlista</h1>
-		</div>
+    <div data-role="content">
+        <ul data-role="listview" data-inset="true" id="mainUl">
+            <li data-role="list-divider">Startlistor</li>
+            <li class="listUlItem" id="d-startlist">
+                <a>D 9-10</a>
+            </li>
+            <li class="listUlItem" id="h-startlist">
+                <a>H 9-10</a>
+            </li>
+            <li data-role="list-divider">Lagindelning</li>
+            <li class="listUlItem" id="d-teams">
+                <a>D 9-10</a>
+            </li>
+            <li class="listUlItem" id="h-teams">
+                <a>H 9-10</a>
+            </li>
+            <li data-role="list-divider">Resultat</li>
+            <li class="listUlItem" id="d-result-first">
+                <a>D 9-10 &Aring;k 1</a>
+            </li>
+            <li class="listUlItem" id="d-result-total">
+                <a>D 9-10 Totalt</a>
+            </li>
+            <li class="listUlItem" id="h-result-first">
+                <a>H 9-10 &Aring;k 1</a>
+            </li>
+            <li class="listUlItem" id="h-result-total">
+                <a>H 9-10 Totalt</a>
+            </li>
+        </ul>
+    </div>
+    <div data-role="footer">
+        <h1 id="footer">&copy; DIF Alpin</h1>
+    </div>
+</div>
 
-		<div data-role="content">
-			<ul data-role="listview" data-filter="true"
-				data-filtertext="Filtrera" id="startListUl">
-			</ul>
-		</div>
-	</div>
-	
-	<div data-role="page" id="teamPage">
-		<div data-role="header">
-			<a href="#mainPage" data-icon="back" data-direction="reverse"
-				class="ui-btn-left" data-iconpos="notext" data-transition="slidefade">Tillbaka</a>
-			<h1 id="teamHeader">Lagindelning</h1>
-		</div>
+<div data-role="page" id="startListPage">
+    <div data-role="header">
+        <a href="#mainPage" data-icon="back" data-direction="reverse"
+           class="ui-btn-left" data-iconpos="notext" data-transition="slidefade">Tillbaka</a>
+        <h1 id="startListHeader">Startlista</h1>
+    </div>
+
+    <div data-role="content">
+        <ul data-role="listview" data-filter="true"
+            data-filtertext="Filtrera" id="startListUl">
+        </ul>
+    </div>
+</div>
+
+<div data-role="page" id="teamPage">
+    <div data-role="header">
+        <a href="#mainPage" data-icon="back" data-direction="reverse"
+           class="ui-btn-left" data-iconpos="notext" data-transition="slidefade">Tillbaka</a>
+        <h1 id="teamHeader">Lagindelning</h1>
+    </div>
 
 
-		<div data-role="content">
-			<ul data-role="listview" data-filter="true"
-				data-filtertext="Filtrera" id="teamUl">
-			</ul>
-		</div>
-	</div>
-	
-	<div data-role="page" id="firstRunResultPage">
-		<div data-role="header">
-			<a href="#mainPage" data-icon="back" data-direction="reverse"
-				class="ui-btn-left" data-iconpos="notext" data-transition="slidefade">Tillbaka</a>
-			<h1 id="firstRunResultHeader">Resultat</h1>
-		<a id="refreshButton1" data-icon="refresh" class="ui-btn-right"
-				data-iconpos="notext">Ladda Om</a>
-		</div>
+    <div data-role="content">
+        <ul data-role="listview" data-filter="true"
+            data-filtertext="Filtrera" id="teamUl">
+        </ul>
+    </div>
+</div>
 
-		<div data-role="footer" data-theme="e" id="reloadMessage1"
-			style="display: none">
-			<h1>Sidan har laddats om</h1>
-		</div>
-		
-		<div data-role="content">
-			<ul data-role="listview" data-filter="true"
-				data-filtertext="Filtrera" id="firstRunResultUl">
-			</ul>
-		</div>
-	</div>
-	
-	<div data-role="page" id="totalResultPage">
-		<div data-role="header">
-			<a href="#mainPage" data-icon="back" data-direction="reverse"
-				class="ui-btn-left" data-iconpos="notext" data-transition="slidefade">Tillbaka</a>
-			<h1 id="totalResultHeader">Resultat</h1>
-		<a id="refreshButton2" data-icon="refresh" class="ui-btn-right"
-				data-iconpos="notext">Ladda Om</a>
-		</div>
+<div data-role="page" id="firstRunResultPage">
+    <div data-role="header">
+        <a href="#mainPage" data-icon="back" data-direction="reverse"
+           class="ui-btn-left" data-iconpos="notext" data-transition="slidefade">Tillbaka</a>
+        <h1 id="firstRunResultHeader">Resultat</h1>
+        <a id="refreshButton1" data-icon="refresh" class="ui-btn-right"
+           data-iconpos="notext">Ladda Om</a>
+    </div>
 
-		<div data-role="footer" data-theme="e" id="reloadMessage2"
-			style="display: none">
-			<h1>Sidan har laddats om</h1>
-		</div>
-		
+    <div data-role="footer" data-theme="e" id="reloadMessage1"
+         style="display: none">
+        <h1>Sidan har laddats om</h1>
+    </div>
 
-		<div data-role="content">
-			<ul data-role="listview" data-filter="true"
-				data-filtertext="Filtrera" id="totalResultUl">
-			</ul>
-		</div>
-	</div>
-	
-	<div data-role="page" id="aboutPage">
-		<div data-role="header">
-			<h1>Om</h1>
-		</div>
-		<div data-role="content">
-			<p>
-				DIF Alpin Live Timing f&ouml;r lag.
-			</p>
-			<p>
-				Ihopsnickrad av <a href="http://twitter.com/#!/lemoms"
-					target="_blank">Fredrik Lindskog</a>.
-				Synpunkter och f&ouml;rb&auml;ttringsf&ouml;rslag mottages tacksamt.
-			</p>
-			</p>
-		</div>
-	</div>
+    <div data-role="content">
+        <ul data-role="listview" data-filter="true"
+            data-filtertext="Filtrera" id="firstRunResultUl">
+        </ul>
+    </div>
+</div>
+
+<div data-role="page" id="totalResultPage">
+    <div data-role="header">
+        <a href="#mainPage" data-icon="back" data-direction="reverse"
+           class="ui-btn-left" data-iconpos="notext" data-transition="slidefade">Tillbaka</a>
+        <h1 id="totalResultHeader">Resultat</h1>
+        <a id="refreshButton2" data-icon="refresh" class="ui-btn-right"
+           data-iconpos="notext">Ladda Om</a>
+    </div>
+
+    <div data-role="footer" data-theme="e" id="reloadMessage2"
+         style="display: none">
+        <h1>Sidan har laddats om</h1>
+    </div>
+
+
+    <div data-role="content">
+        <ul data-role="listview" data-filter="true"
+            data-filtertext="Filtrera" id="totalResultUl">
+        </ul>
+    </div>
+</div>
+
+<div data-role="page" id="aboutPage">
+    <div data-role="header">
+        <h1>Om</h1>
+    </div>
+    <div data-role="content">
+        <p>
+            DIF Alpin Live Timing f&ouml;r lag.
+        </p>
+        <p>
+            Ihopsnickrad av <a href="http://twitter.com/#!/lemoms"
+                               target="_blank">Fredrik Lindskog</a>.
+            Synpunkter och f&ouml;rb&auml;ttringsf&ouml;rslag mottages tacksamt.
+        </p>
+        </p>
+    </div>
+</div>
 
 </body>
 </html>

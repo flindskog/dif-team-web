@@ -128,7 +128,7 @@ function getDataAndApplyTemplate(url, header, successCallback, headerId, headerP
 			}
 		},
 		error : function() {
-			alert("Sidan kunde inte laddas.");
+			alert("Datat finns inte tillgängligt ännu.");
 		},
 		complete : function() {
 			$.mobile.hidePageLoadingMsg();

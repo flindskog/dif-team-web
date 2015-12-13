@@ -20,15 +20,7 @@ function program1(depth0,data) {
   if (stack1 = helpers.totalResult) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
   else { stack1 = depth0.totalResult; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
   buffer += escapeExpression(stack1)
-    + "</strong> (";
-  if (stack1 = helpers.firstRun) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = depth0.firstRun; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
-  buffer += escapeExpression(stack1)
-    + " / ";
-  if (stack1 = helpers.secondRun) { stack1 = stack1.call(depth0, {hash:{},data:data}); }
-  else { stack1 = depth0.secondRun; stack1 = typeof stack1 === functionType ? stack1.apply(depth0) : stack1; }
-  buffer += escapeExpression(stack1)
-    + ")</p>\n";
+    + "</strong></p>\n";
   stack1 = helpers.each.call(depth0, depth0.competitorResult, {hash:{},inverse:self.noop,fn:self.program(2, program2, data),data:data});
   if(stack1 || stack1 === 0) { buffer += stack1; }
   buffer += "\n</li>\n";
